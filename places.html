@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Places to Visit - Ayodhya</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <h1 class="logo">Ayodhya</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="places.html">Places</a></li>
+      <li><a href="culture.html">Culture & Food</a></li>
+      <li><a href="travel.html">Travel Info</a></li>
+    </ul>
+  </nav>
+
+  <section class="section">
+    <h3>Places to Visit</h3>
+
+    <div class="card-container">
+
+      <div class="card">
+        <img src="assets/images/ram-mandir.jpg" alt="Ram Mandir">
+        <h4>Shri Ram Mandir</h4>
+        <p>The birthplace of Lord Ram and the spiritual heart of Ayodhya.</p>
+        <button onclick="toggleDetails('ram')">Read More</button>
+        <p id="ram" class="hidden">
+          The grand Ram Mandir represents devotion, faith, and cultural pride.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/hanuman-garhi.jpg" alt="Hanuman Garhi">
+        <h4>Hanuman Garhi</h4>
+        <p>A famous hilltop temple dedicated to Lord Hanuman.</p>
+        <button onclick="toggleDetails('hanuman')">Read More</button>
+        <p id="hanuman" class="hidden">
+          It is believed that Lord Hanuman guards Ayodhya from here.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/kanak-bhawan.jpg" alt="Kanak Bhawan">
+        <h4>Kanak Bhawan</h4>
+        <p>A beautiful temple associated with Lord Ram and Goddess Sita.</p>
+        <button onclick="toggleDetails('kanak')">Read More</button>
+        <p id="kanak" class="hidden">
+          Known for its stunning architecture and intricate carvings.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/sarayu-ghat.jpg" alt="Sarayu Ghat">
+        <h4>Sarayu Ghat</h4>
+        <p>A peaceful riverside area for prayers and meditation.</p>
+        <button onclick="toggleDetails('sarayu')">Read More</button>
+        <p id="sarayu" class="hidden">
+          A serene spot along the holy Sarayu River, perfect for spiritual reflection.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Ayodhya Tourism Guide by GAURI MISHRA</p>
+  </footer>
+
+</body>
+</html>
